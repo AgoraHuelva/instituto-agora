@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function Footer() {
 	return (
@@ -83,8 +84,15 @@ export function Footer() {
           </a>
         </div> */}
 
-				<p className="mt-4 text-xs text-primary-foreground/50">
-					Este sitio no utiliza cookies ni recopila datos personales.
+				<p className="mt-4 text-xs text-primary-foreground/50 flex flex-wrap justify-center gap-x-2">
+					Este sitio no utiliza cookies ni recopila datos personales
+					<span className="hidden sm:inline">·</span>
+					<Link
+						href="/aviso-legal"
+						className="text-primary-foreground/50 hover:text-primary-foreground transition-colors no-underline"
+					>
+						Aviso legal
+					</Link>
 				</p>
 				<p className="mt-4">
 					© {new Date().getFullYear()} Instituto Ágora. Desarrollado por{' '}
