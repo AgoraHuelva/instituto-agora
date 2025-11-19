@@ -83,35 +83,9 @@ export function Footer() {
           </a>
         </div> */}
 
-				<div className="mt-4 flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs">
-					<a
-						href="/aviso-legal"
-						className="text-primary-foreground/70 hover:text-primary-foreground transition-colors no-underline"
-					>
-						Aviso Legal
-					</a>
-					<span className="hidden sm:inline">·</span>
-					<a
-						href="/politica-privacidad"
-						className="text-primary-foreground/70 hover:text-primary-foreground transition-colors no-underline"
-					>
-						Política de Privacidad
-					</a>
-					<span className="hidden sm:inline">·</span>
-					<a
-						href="/politica-cookies"
-						className="text-primary-foreground/70 hover:text-primary-foreground transition-colors no-underline"
-					>
-						Política de Cookies
-					</a>
-					<span className="hidden sm:inline">·</span>
-					<a
-						href="/preferencias-de-cookies"
-						className="text-primary-foreground/70 hover:text-primary-foreground transition-colors no-underline"
-					>
-						Preferencias de Cookies
-					</a>
-				</div>
+				<p className="mt-4 text-xs text-primary-foreground/50">
+					Este sitio no utiliza cookies ni recopila datos personales.
+				</p>
 				<p className="mt-4">
 					© {new Date().getFullYear()} Instituto Ágora. Desarrollado por{' '}
 					<a
