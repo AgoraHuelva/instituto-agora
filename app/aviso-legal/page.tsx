@@ -7,6 +7,10 @@ export default function AvisoLegalPage() {
 				</h1>
 
 				<div className="prose prose-lg max-w-none text-foreground/80 space-y-8">
+					<p className="text-foreground/70">
+						El acceso a este sitio web implica la aceptación de este Aviso Legal y Política de Privacidad.
+					</p>
+
 					<section>
 						<h2 className="text-2xl font-normal text-foreground mb-4 font-[family-name:var(--font-prata)]">
 							Identificación del Titular
